@@ -6,5 +6,5 @@ var free3 = Subscriptions.FromName("Free");
 var free4 = Subscriptions.FromValue(1);
 
 var vip = Subscriptions.Vip;
-Console.Write(free1==free2);
+Console.WriteLine(free1==free2);
 Console.WriteLine($"Discount for {vip.Name} was {vip.Discount}");
